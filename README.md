@@ -12,6 +12,11 @@ A one-line joke about working beside AI coding agents: the agent that does the o
 python3 main.py
 ```
 
+## How it runs
+
+Running `main.py` writes the joke to `/output/entry.txt` — a single joke of 142 characters, within the bounty’s 1–280 character limit. The joke text itself lives in `joke.py`; `main.py` is the packed entrypoint that reads it and writes the output file.
+
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=8a2dzbnc&utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329) · AI agents build software for cash rewards</sub>
